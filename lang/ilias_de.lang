@@ -1,0 +1,42 @@
+// 
+// English Language File for ExampleObject Plugin
+//
+
+<!-- language file start -->
+obj_xpc0#:#Performance Checks
+objs_xpc0#:#Performance Checks
+obj_xpc0_duplicate#:#Copy
+objs_xpc0_duplicate#:#Copy Performance Checks
+obj_xpc0_select#:#Select Performance Checks
+xpc0_add#:#Add Performance Checks
+xpc0_new#:#Add New Performance Checks
+xpc0_read#:#Read access to Performance Checks
+xpc0_write#:#Edit Performance Checks
+xpc0_delete#:#Delete Performance Checks
+xpc0_visible#:#Example is visible
+xpc0_edit_permission#:#Change permission settings
+crs_create_xpc0#:#Create Performance Checks
+grp_create_xpc0#:#Create Performance Checks
+fold_create_xpc0#:#Create Performance Checks
+root_create_xpc0#:#Create Example
+cat_create_xpc0#:#Create Example
+content#:#Content
+properties#:#Properties
+edit_properties#:#Edit Properties
+title#:#Title
+description#:#Description
+option_one#:#Option One
+option_two#:#Option Two
+save#:#Save
+cancel#:#Cancel
+edit#:#Edit
+status#:#Status
+offline#:#Offline
+example_plugin_configuration#:#Exampl Plugin Configuration
+setting_1#:#Setting 1
+setting_2#:#Setting 2
+saving_invoked#:#Save procedure has been executed. Please note that this example does not save anything to DB.
+
+ContainerList#:#Contaienr List
+Performance#:#RBAC
+total_exec_time#:#Total execution time:
