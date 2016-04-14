@@ -69,6 +69,7 @@ class ilContainerListCheckGUI extends ilPerformanceCheckGUI
 		$reload_btn = ilSubmitButton::getInstance();
 		$reload_btn->setCaption('Run',false);
 		$reload_btn->setCommand("showCheckResult");
+		$this->ctrl->setParameter($this->parent,"check",get_class($this));
 		$toolbar->setFormAction($this->ctrl->getLinkTarget($this->parent, 'showCheckResult'));
 		$toolbar->addButtonInstance($reload_btn);
 		return $toolbar->getHTML();

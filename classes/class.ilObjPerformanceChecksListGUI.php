@@ -61,7 +61,7 @@ class ilObjPerformanceChecksListGUI extends ilObjectPluginListGUI
 		(
 			array(
 				"permission" => "read",
-				"cmd" => "showContent",
+				"cmd" => "showCheck",
 				"default" => true),
 			array(
 				"permission" => "write",
