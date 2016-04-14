@@ -99,7 +99,7 @@ class ilRBACCheckGUI extends ilPerformanceCheckGUI
 		$toolbar->addInputItem($start_input);
 		$toolbar->addInputItem($nr_input);
 
-
+		include_once("./Services/UIComponent/Button/classes/class.ilSubmitButton.php");
 		$reload_btn = ilSubmitButton::getInstance();
 		$reload_btn->setCaption('Run',false);
 		$reload_btn->setCommand("showCheckResult");

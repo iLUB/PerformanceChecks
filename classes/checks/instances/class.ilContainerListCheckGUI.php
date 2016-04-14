@@ -67,6 +67,8 @@ class ilContainerListCheckGUI extends ilPerformanceCheckGUI
 			$input->setValue(intval($_POST["nr_entries"]));
 		}
 		$toolbar->addInputItem($input);
+
+		include_once("./Services/UIComponent/Button/classes/class.ilSubmitButton.php");
 		$reload_btn = ilSubmitButton::getInstance();
 		$reload_btn->setCaption('Run',false);
 		$reload_btn->setCommand("showCheckResult");
