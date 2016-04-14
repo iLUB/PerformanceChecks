@@ -37,6 +37,9 @@ setting_1#:#Setting 1
 setting_2#:#Setting 2
 saving_invoked#:#Save procedure has been executed. Please note that this example does not save anything to DB.
 
-ContainerList#:#Contaienr List
-Performance#:#RBAC
+ilRBACCheckGUI#:#RBAC
+ilContainerListCheckGUI#:#Container List
 total_exec_time#:#Total execution time:
+nr_entries#:#Nr. of entries
+rbac_entries#:#User Id, Starting Id, Nr Items
+rbac_entries#:#User Id, Starting Id, Nr Items
