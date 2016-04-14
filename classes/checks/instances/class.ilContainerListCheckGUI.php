@@ -60,6 +60,7 @@ class ilContainerListCheckGUI extends ilPerformanceCheckGUI
 		return $block->get();
 	}
 	protected function renderCheck(){
+		include_once("./Services/Form/classes/class.ilTextInputGUI.php");
 		$toolbar = new ilToolbarGUI();
 		$input = new ilTextInputGUI($this->parent->publicTxt("nr_entries"),"nr_entries");
 		if($_POST["nr_entries"]){

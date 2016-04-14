@@ -79,6 +79,7 @@ class ilRBACCheckGUI extends ilPerformanceCheckGUI
 	}
 	protected function renderCheck(){
 		$toolbar = new ilToolbarGUI();
+		include_once("./Services/Form/classes/class.ilTextInputGUI.php");
 		$user_input = new ilTextInputGUI($this->parent->publicTxt("user_id"),"user_id");
 		$start_input = new ilTextInputGUI($this->parent->publicTxt("start_id"),"start_id");
 		$nr_input = new ilTextInputGUI($this->parent->publicTxt("nr_objects"),"nr_objects");
